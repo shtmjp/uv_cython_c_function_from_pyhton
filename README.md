@@ -3,6 +3,7 @@ uvを用いて、Cython経由で呼び出されるCの関数をビルドする�
 Cの関数にはnumpy配列をポインタとして渡している。
 ## How to run
 ```
+uv sync
 uv run src/main.py
 ```
 
