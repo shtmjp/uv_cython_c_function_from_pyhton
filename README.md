@@ -1,4 +1,4 @@
-# uv_cython_c_function_from_pyhton
+# uv_cython_c_function_from_python
 uvを用いて、Cython経由で呼び出されるCの関数をビルドする例。  
 Cの関数にはnumpy配列をポインタとして渡している。
 ## How to run
