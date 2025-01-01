@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel", "cython", "numpy>2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = false
+
+[project]
+name = "cython-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cython>=3.0.11",
+    "numpy>=2.2.1",
+    "setuptools>=75.6.0",
+    "wheel>=0.45.1",
+]

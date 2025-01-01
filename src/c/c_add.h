@@ -1,0 +1,1 @@
+double sum_array_c(double *array, int n);
